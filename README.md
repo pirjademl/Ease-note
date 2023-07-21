@@ -22,7 +22,7 @@ To run the Sticky Notes Web App on your local machine, follow these steps:
 
 Clone the repository to your local machine using the following command:
 Copy code
-git clone https://github.com/your-username/sticky-notes-web-app.git
+git clone https://github.com/pirjademl/Ease-notes.git
 Navigate to the project directory:
 
 Copy code
@@ -34,7 +34,9 @@ Open the index.html file in your preferred web browser.
 Technologies Used
 ***
 HTML5: Provides the structure and layout for the web app.
+---
 CSS3: Handles the styling and appearance of the sticky notes and interface.
+---
 JavaScript: Implements the interactive functionality, such as creating, editing, and deleting notes.
 Contributing
 If you would like to contribute to this project or report any issues, feel free to do so by creating a pull request or raising an issue on the GitHub repository.
