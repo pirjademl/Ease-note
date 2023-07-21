@@ -34,9 +34,7 @@ Open the index.html file in your preferred web browser.
 Technologies Used
 ***
 HTML5: Provides the structure and layout for the web app.
----
 CSS3: Handles the styling and appearance of the sticky notes and interface.
----
 JavaScript: Implements the interactive functionality, such as creating, editing, and deleting notes.
 Contributing
 If you would like to contribute to this project or report any issues, feel free to do so by creating a pull request or raising an issue on the GitHub repository.
