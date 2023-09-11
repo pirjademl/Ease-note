@@ -217,7 +217,9 @@ input:not(:placeholder-shown)~.reset {
 }
 
 @media screen and (max-width: 600px) {
-
+.navigation-bar{
+  justify-content: space-between;
+}
   .dev-btn {
     display: none;
   }
