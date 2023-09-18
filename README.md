@@ -3,21 +3,25 @@ The Sticky Notes Web App is a simple and user-friendly web application that allo
 ***
 
 
-Features
+# Features
 ***
-Create Notes: Easily create new sticky notes by clicking the "New Note" button. Each note can be customized with different colors for better organization.
+___Create Notes___<br>
+Easily create new sticky notes by clicking the "+" button. 
 
-Edit Notes: Double-click on a note's content to edit the text and make changes as needed.
+___Edit Notes___<br>
+Double-click on a note's content to edit the text and make changes as needed.
 
-Drag and Drop: Move notes around by clicking and dragging them to different locations on the screen.
 
-Delete Notes: Remove unwanted notes by clicking the trash bin icon in the top-right corner of the note.
+___Delete Notes___ <br>
+Remove unwanted notes by clicking the trash bin icon in the top-right corner of the note.
 
-Local Storage: All your notes are automatically saved to your browser's local storage, so you won't lose them even if you close the browser or refresh the page.
+___Local Storage___ <br>
+All your notes are automatically saved to your browser's local storage, so you won't lose them even if you close the browser or refresh the page.
+
 ***
 
 Getting Started
-***
+
 To run the Sticky Notes Web App on your local machine, follow these steps:
 
 Clone the repository to your local machine using the following command:
