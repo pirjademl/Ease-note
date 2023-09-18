@@ -72,26 +72,21 @@ function deleteNote(id, element) {
 let aboutUsButton = document.getElementById("dev-btn");
 aboutUsButton.addEventListener("click", openAboutUs);
 function openAboutUs() {
-
   window.open("https://github.com/pirjademl", "_blank");
 }
-//! Search Functionality yet to be implemented
-// function to search notes by content
-// const searchButton = document.getElementById("search-btn");
-// searchButton.addEventListener("click", searchNotes());
 
-// function searchNotes() {
-//   // let input = document.getElementById("search").value;
-//   let input = document.getElementById("search").value;
-//   console.log(input);
-//   input = input.toLowerCase();
-//   let x = document.getElementsByClassName("note");
-//   for (i = 0; i < x.length; i++) {
-//     if (!x[i].innerHTML.toLowerCase().includes(input)) {
-//       // console.log(x[i].innerHTML);
-//       x[i].style.display = "none";
-//     } else {
-//       x[i].style.display = "block";
-//     }
-//   }
-// }
+const note = document.querySelectorAll(".note");
+const searchQuery = document.getElementById("search-field");
+
+searchQuery.addEventListener("input", function () {
+  const query = searchQuery.value.toLowerCase();
+  note.forEach((notes) => {
+    const notesText = notes.value.toLowerCase();
+    console.log(notesText);
+    if (notesText.includes(query)) {
+      notes.style.display = "block"; // Show the textarea
+    } else {
+      notes.style.display = "none"; // Hide the textarea
+    }
+  });
+});
