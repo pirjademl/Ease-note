@@ -25,12 +25,14 @@ Getting Started
 To run the Sticky Notes Web App on your local machine, follow these steps:
 
 Clone the repository to your local machine using the following command:
-Copy code
+```bash
 git clone https://github.com/pirjademl/Ease-note.git
+```
 Navigate to the project directory:
 
-Copy code
-cd sticky-notes-web-app
+```sh
+cd Ease-notes
+```
 Open the index.html file in your preferred web browser.
 
 
